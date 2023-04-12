@@ -1,0 +1,56 @@
+.page-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+  
+  .section-left {
+    width: 50%
+  }
+  
+  .left-box {
+    display: flex;
+    align-items: top;
+    margin-bottom: 10px;
+  }
+  
+  .left-box p {
+    margin-top: 0;
+    color: grey;
+    padding-left: 10px;
+  }
+  
+  .img-container {
+    width: 600px;
+    height: 400px;
+    border:1px solid red;
+    display: none;
+  }
+  
+  .img-container img {
+    width: 100%;
+  }
+  
+  .icon {
+    margin: 0 10px;
+  }
+  
+  .active p {
+    color : blue;
+  }
+  
+  .active .icon {
+    color: blue;
+  }
+  
+  .bar {
+     border-left: 5px solid   blue;
+    visibility: hidden;
+  }
+  
+  .show-bar {
+    visibility: visible;
+  }
+  .show {
+    display: block;
+  }
