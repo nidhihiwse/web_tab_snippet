@@ -1,12 +1,12 @@
 .page-section {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding: 20px 50px;
   }
   
-  .section-left {
+  /* .section-left {
     width: 50%
-  }
+  } */
   
   .left-box {
     display: flex;
